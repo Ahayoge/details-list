@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Books App</string>
+    <string name="books">Книги</string>
+    <string name="favorites">Избранное</string>
+    <string name="filters">Фильтры</string>
+    <string name="profile">Профиль</string>
+</resources>
