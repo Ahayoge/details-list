@@ -54,34 +54,6 @@ Android приложение для управления книгами на Kot
 - **Разрешения**: Accompanist Permissions
 - **Загрузка изображений**: Coil
 
-## Структура проекта
-booksapp/
-├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/booksapp/
-│ │ │ │ ├── data/ # Data layer
-│ │ │ │ │ ├── local/ # Room, DataStore
-│ │ │ │ │ ├── remote/ # Retrofit, DTO
-│ │ │ │ │ └── repository/ # Repository implementations
-│ │ │ │ ├── domain/ # Domain layer
-│ │ │ │ │ ├── model/ # Domain models
-│ │ │ │ │ ├── repository/ # Repository interfaces
-│ │ │ │ │ └── usecase/ # Use cases
-│ │ │ │ ├── presentation/ # Presentation layer
-│ │ │ │ │ ├── books/ # Books screen
-│ │ │ │ │ ├── favorites/ # Favorites screen
-│ │ │ │ │ ├── filters/ # Filters screen
-│ │ │ │ │ ├── profile/ # Profile screens
-│ │ │ │ │ ├── details/ # Book details
-│ │ │ │ │ └── navigation/ # Navigation components
-│ │ │ │ └── di/ # Dependency Injection
-│ │ │ └── res/ # Resources
-│ │ └── build.gradle.kts
-├── gradle/
-├── build.gradle.kts
-└── settings.gradle.kts
-
 
 ## Запуск сервера
 1. Установить зависимости:
